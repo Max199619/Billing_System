@@ -3,7 +3,7 @@ package com.company;
 import java.io.*;
 import java.util.*;
 
-public class company {
+public class Company {
     //variables of class Company
     private final String name;
     private float value;

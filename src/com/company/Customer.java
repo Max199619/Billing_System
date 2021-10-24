@@ -63,6 +63,14 @@ public class Customer {
         return value;
     }
 
+    public void readCounter(float c_reading)
+    {
+        this.reading = c_reading;
+        this.setUsedSinceLastReading(c_reading - this.getUsedSinceLastReading());
+
+
+    }
+
     public void setUsedSinceLastReading(float usedSince) {
         this.usedSinceLastReading = usedSince;
     }
